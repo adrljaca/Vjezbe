@@ -2,9 +2,11 @@ package Ucilica;
 
 public class Krug {
     private double radijus;
+    private String naziv;
 
-    public Krug(double radijus) {
+    public Krug(double radijus, String naziv) {
         this.radijus = radijus;
+        this.naziv = naziv;
     }
 
     //Opseg kruga
